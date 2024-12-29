@@ -319,6 +319,9 @@ form btn2{
     color: #ff004f;
 }
 /*---------------------css for small screen-----------*/
+nav .fas{
+    display: none;
+}
 
 @media only screen and (max-width: 600px){
     #header{
@@ -339,7 +342,7 @@ form btn2{
         background: #5f2a3b;
         position: fixed;
         top: 0;
-        right: 0;
+        right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
